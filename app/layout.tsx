@@ -2,6 +2,7 @@ import { Quicksand } from "next/font/google";
 import { Geologica } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/navbar";
+import Footer from "@/components/footer";
 
 export const quicksand = Quicksand({
   variable: "--font-quicksand",
@@ -21,6 +22,7 @@ export default function RootLayout({ children, }: Readonly<{ children: React.Rea
         <main className="max-w-6xl mx-auto flex-grow">
           {children}
         </main>
+        <Footer />
       </body>
     </html>
   );
