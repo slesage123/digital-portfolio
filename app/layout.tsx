@@ -19,7 +19,7 @@ export default function RootLayout({ children, }: Readonly<{ children: React.Rea
     <html lang="en">
       <body className={`${quicksand.className} flex flex-col min-h-svh`}>
         <Navbar />
-        <main className="max-w-8xl mx-auto flex-grow">
+        <main className="bg-[url(/background_v.svg)] bg-no-repeat max-w-8xl mx-auto flex-grow">
           {children}
         </main>
         <Footer />

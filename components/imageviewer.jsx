@@ -20,6 +20,12 @@ const images = [
     {pic: "/teapackage.jpg", text: "Print-ready flat of an experimental package for tea."},
     {pic: "/spreadsheets_1.jpg", text: "Poster featuring Bodoni 72."},
     {pic: "/Untitled-1.jpg", text: "Mock-up of a social media ad campaign post."},
+    { pic: "/nightprint1.jpg", text: "Digital photography and photo manipulation." },
+    { pic: "/nightprint2.jpg", text: "Digital photography and photo manipulation." },
+    { pic: "/nightprint3.jpg", text: "Digital photography and photo manipulation." },
+    { pic: "/nightprint4.jpg", text: "Digital photography and photo manipulation." },
+    { pic: "/nightprint5.jpg", text: "Digital photography and photo manipulation." },
+    { pic: "/nightprint6.jpg", text: "Digital photography and photo manipulation." },
 ];
 
 function ImageViewer() {

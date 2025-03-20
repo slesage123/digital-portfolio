@@ -6,6 +6,8 @@ import "yet-another-react-lightbox/styles.css";
 import Captions from "yet-another-react-lightbox/plugins/captions";
 import "yet-another-react-lightbox/plugins/captions.css";
 import { Phudu } from "next/font/google";
+import VideoComponent from '@/components/vidiframe.jsx'
+import Link from "next/link";
 
 const phudu = Phudu({
     subsets: ["latin"],
@@ -21,6 +23,12 @@ export default function Page() {
             </div>
             <div className="min-h-screen flex flex-col p-4">
                 <ImageViewer />
+            </div>
+            <div className="align-top text-2xl py-4 text-center">
+                <h2 className={phudu.className}>Motion Design</h2>
+            </div>
+            <div className="p-4 md:max-w-1/2">
+                <VideoComponent videoId="334769991" />
             </div>
         </div>
     );
