@@ -17,7 +17,7 @@ const images = [
     { pic: "/digital-portfolio/goodeats1.jpg", text: "Magazine cover layout front cover"},
     { pic: "/digital-portfolio/goodeats2.jpg", text: "Magazine cover layout back cover."},
     { pic: "/digital-portfolio/goodeats3.jpg", text: "Magazine central print spread."},
-    { pic: "/digital-portfolio/teapackage.jpg", text: "Print-ready flat of an experimental package for tea."},
+    { pic: "/digital-portfolio/TeaPackage.jpg", text: "Print-ready flat of an experimental package for tea."},
     { pic: "/digital-portfolio/spreadsheets_1.jpg", text: "Poster featuring Bodoni 72."},
     { pic: "/digital-portfolio/Untitled-1.jpg", text: "Mock-up of a social media ad campaign post."},
     { pic: "/digital-portfolio/nightprint1.jpg", text: "Digital photography and photo manipulation." },

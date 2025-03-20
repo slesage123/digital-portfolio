@@ -17,7 +17,7 @@ export const geologica = Geologica({
 export default function RootLayout({ children, }: Readonly<{ children: React.ReactNode; }>) {
   return (
     <html lang="en">
-      <body className={`${quicksand.className} flex flex-col min-h-svh min-w-svw m-0`}>
+      <body className={`${quicksand.className} flex flex-col min-h-svh`}>
         <Navbar />
         <main className="bg-[url(/digital-portfolio/background_v.svg)] bg-no-repeat max-w-8xl mx-auto flex-grow">
           {children}
