@@ -1,15 +1,26 @@
 import React from "react";
 import Link from "next/link";
+import { Phudu } from "next/font/google";
+
+const phudu = Phudu({
+    subsets: ["latin"],
+    weight: "500"
+});
+
 
 export default function Page(){
     return(
         <main>
+            <div className="align-top text-2xl py-4 text-center">
+                <h1 className={phudu.className}>
+                    Other Web Projects
+                </h1>
+            </div>
             <div className="text-center p-4 md:py-8">
                 <div className="max-w-11/12 text-center">
                     <table className="table">
                         {/* head */}
                         <thead>
-                            Other Web Projects
                             <tr>
                                 <th>Link</th>
                                 <th>Description</th>
