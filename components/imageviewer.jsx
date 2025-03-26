@@ -26,9 +26,6 @@ const images = [
     { pic: "/digital-portfolio/nightprint1.jpg", text: "Digital photography and photo manipulation." },
     { pic: "/digital-portfolio/nightprint2.jpg", text: "Digital photography and photo manipulation." },
     { pic: "/digital-portfolio/nightprint3.jpg", text: "Digital photography and photo manipulation." },
-    { pic: "/digital-portfolio/nightprint4.jpg", text: "Digital photography and photo manipulation." },
-    { pic: "/digital-portfolio/nightprint5.jpg", text: "Digital photography and photo manipulation." },
-    { pic: "/digital-portfolio/nightprint6.jpg", text: "Digital photography and photo manipulation." },
 ];
 
 function ImageViewer() {
