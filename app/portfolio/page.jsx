@@ -24,13 +24,14 @@ export default function Page() {
             <div className="min-h-screen flex flex-col p-4">
                 <ImageViewer />
             </div>
-            <div className="align-top text-2xl py-4 text-center">
-                <h2 className={phudu.className}>Motion Design</h2>
-            </div>
-          { // <div className="flex mx-auto p-4 md:max-w-1/2 items-center relative">
-           //    <VideoComponent videoId="334769991" />
-           // </div>
-          }
+        {
+            //<div className="align-top text-2xl py-4 text-center">
+            //    <h2 className={phudu.className}>Motion Design</h2>
+            //</div>
+            // <div className="flex mx-auto p-4 md:max-w-1/2 items-center relative">
+            //    <VideoComponent videoId="334769991" />
+            // </div>
+        }
         </div>
     );
 };
