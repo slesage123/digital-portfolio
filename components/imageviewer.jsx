@@ -24,7 +24,6 @@ const images = [
     { pic: "/digital-portfolio/letterheadpen.png", text: "Logo and branding concepts for a high end law firm." },
     { pic: "/digital-portfolio/webplaced.png", text: "Web page concept for a high end law firm." },
     { pic: "/digital-portfolio/goodeats_1.jpg", text: "Conceptual magazine cover layout front cover"},
-    { pic: "/digital-portfolio/goodeats_2.jpg", text: "Conceptual magazine table of contents." },
     { pic: "/digital-portfolio/goodeats_3.jpg", text: "Conceptual magazine central spread."},
     { pic: "/digital-portfolio/nightprint1.jpg", text: "Digital photography and photo manipulation." },
     { pic: "/digital-portfolio/nightprint2.jpg", text: "Digital photography and photo manipulation." },
